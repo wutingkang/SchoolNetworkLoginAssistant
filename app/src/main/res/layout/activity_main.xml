@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/main_title"
+            android:text="@string/mainTitle"
 
             android:textSize="20dp"
             android:typeface="serif" />
@@ -68,7 +68,7 @@
                         android:id="@+id/main_et_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/username"
+                        android:hint="@string/userName"
                         android:imeOptions="actionNext"
                         android:typeface="serif" />
                 </android.support.design.widget.TextInputLayout>
@@ -86,7 +86,7 @@
                     android:id="@+id/main_et_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/password"
+                    android:hint="@string/passWord"
                     android:inputType="textPassword"
                     android:typeface="serif" />
             </android.support.design.widget.TextInputLayout>
